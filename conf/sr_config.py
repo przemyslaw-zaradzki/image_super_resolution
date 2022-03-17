@@ -3,10 +3,10 @@ import os
 
 # define the path to the input images we will be using to build the
 # training crops
-INPUT_IMAGES = "../datasets/ukbench/ukbench100"
+INPUT_IMAGES = "../datasets/oct/_01_1079_3D Retina_OS_2016-12-07_10.19.33_1"
 
 # define the path to the temporary output directories
-BASE_OUTPUT = "../datasets/ukbench/output"
+BASE_OUTPUT = "../datasets/oct/output"
 IMAGES = os.path.sep.join([BASE_OUTPUT, "images"])
 LABELS = os.path.sep.join([BASE_OUTPUT, "labels"])
 
